@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="dojoSurvey" content="This application is my first unassisted form">
+        <title>Dojo Survey</title>
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='style.css') }}">
+    </head>
+    <body class='wrapper'>
+        <form action='/result' method='POST'>
+            <p>Your Name: <input type='text' name='name' class='name'></p>
+            <p>Dojo Location: <select name='Dojo_Location' class='dojoLoc'>
+                <option>Select Dojo</option>
+                <option>Berkeley</option>
+                <option>Boise</option>
+                <option>Chicago</option>
+                <option>Dallas</option>
+                <option>Los Angeles</option>
+                <option>Orange County</option>
+                <option>San Jose</option>
+                <option>Seattle</option>
+                <option>Tysons Corner</option>
+                <option>Tulsa</option>
+            </select></p>
+            <p>Favorite Language: <select name='Favorite_Language' class='favLang'>
+                <option>Select Language</option>
+                <option>C++</option>
+                <option>C#</option>
+                <option>CSS</option>
+                <option>HTML</option>
+                <option>Java</option>
+                <option>JavaScript</option>
+                <option>Mean</option>
+                <option>Python</option>
+            </select></p>
+            <p class='comment' name='comment'>Comment (optional): <textarea name='comment'></textarea></p>
+            <input type='submit' value='Submit' class='button'>
+        </form>
+    </body>
+</html>

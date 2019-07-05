@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: auto;
+    padding: 10px;
+    border: 1px solid black;
+    width: 320px;
+    height: 216px;
+    text-align: left;
+}
+
+input {
+    width: 147px;
+    margin: 2px;
+    background-color: white;
+}
+
+select {
+    width: 150px;
+    margin: 2px;
+    background-color: white;
+}
+
+textarea {
+    width: 320px;
+    height: 75px;
+    background-color: white;
+}
+
+.name {
+    margin-left: 66px;
+}
+
+.dojoLoc {
+    margin-left: 44px;
+}
+
+.favLang {
+    margin-left: 6px;
+}
+
+.comment {
+    margin-right: 155px;
+}
+
+.button {
+    margin: 10px 0px 0px 263px;
+    width: 60px;
+    box-shadow: 2px 2px #6f7678;
+    background-color: #76a5af;
+    color: white;
+}
+
+h3 {
+    text-decoration: underline;
+}
+
+.showP {
+    margin-top: 10px;
+}
+
+.backButton {
+    margin: 54px 0px 0px 263px;
+    width: 60px;
+    box-shadow: 2px 2px #6f7678;
+    background-color: #76a5af;
+    color: white;
+}
